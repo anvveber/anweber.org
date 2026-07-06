@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--
+    ARTICLE TEMPLATE
+    ----------------
+    Copy this file, rename it (e.g. articles/your-piece.html),
+    and replace the marked spots:
+      1. <title> in <head>
+      2. <h1> article title
+      3. .article-meta line (year · venue · type)
+      4. The description paragraph(s)
+      5. The PDF path: occurs three times below
+         (two action links + the <object data="…">)
+  -->
+  <title>Is Metacognition a Better Predictor than IQ for Academic Achievement? — Antonio N. Weber</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page" data-screen-label="Article">
+    <header class="masthead">
+      <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span>Antonio N. Weber</a>
+      <nav class="primary" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="publications.html" aria-current="page">Publications</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <p class="meta"><a href="publications.html">&larr; Publications</a></p>
+
+      <!-- 1. Title -->
+      <h1>Is Metacognition a Better predictor than IQ for Academic
+Achievement?</h1>
+<p class="article-subtitle">A Methodological and Psychometric Critique of
+Gomes, Golino & Menezes (2014), Psychology, 5, 1095–1110</p>
+
+
+      <!-- 2. Meta line: year, venue, type. Trim what you don't need. -->
+      <p class="article-meta">
+        <span>July 6th 2026</span>
+
+      </p>
+
+      <!-- 3. Description / abstract -->
+      <p class="lede">
+        A few days ago, I came across <a href="https://uva.theopenscholar.com/files/hudson-golino/files/predicting_school_achievement_rather_than_intelligence_does_metacognition_matter.pdf">this article</a> 
+        making some wild claims about the predictive power of "metacognition". From a quick glance, their number seemed wildly off, so I decided to dig deeper, and the more I dug, the worse it got.
+        Given that their paper has been cited almost 150 times, I decided to compile my findings and make them publicly available.
+      </p>
+
+      <!-- 4. Actions -->
+      <div class="article-actions">
+        <a class="btn" href="documents/anweber_2606_Metacognition.pdf" download>Download PDF</a>
+        <a class="btn ghost" href="documents/anweber_2606_Metacognition.pdf" target="_blank" rel="noopener">Open in new tab</a>
+      </div>
+
+      <!-- 5. PDF frame -->
+      <div class="pdf-frame" aria-label="PDF preview">
+        <iframe src="documents/anweber_2606_Metacognition.pdf" title="PDF preview" loading="lazy"></iframe>
+        <noscript>
+          <div class="fallback">
+            <a class="btn" href="/ns_jung.pdf">Download the PDF</a>
+          </div>
+        </noscript>
+      </div>
+      <p class="pdf-caption">
+        PDF rendered inline. If the preview is blank on your device, use the
+        download link above.
+      </p>
+    </main>
+
+    <footer class="colophon">
+      <span>&copy; Antonio N. Weber</span>
+      <span>Last updated <time datetime="2026-07-06">6 July 2026</time></span>
+      <span>Member of the Silever Forest</span>
+    </footer>
+  </div>
+</body>
+</html>
